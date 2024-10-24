@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+   
+}
+body
+{
+overflow: hidden;
+}
+nav
+{
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #181F56;
+}
+
+.logo img
+{
+    font-size: 32px;
+    font-weight: bold;
+    width: 65px;
+    height: 65px;
+    -webkit-user-drag: none;
+    cursor: pointer;
+  
+}
+.menu
+{
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+   
+}
+.menu li{
+    margin-left: 20px;
+    margin: 40px;
+}
+ .menu li a
+ {
+    font-size: 19px;
+    color: white;
+    font: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+    border: 1px solid transparent;
+    padding: 10px;
+ }
+ .menu li a:hover
+ {
+    background-color: red;
+    color: yellow;
+    border-radius: 5px;
+ }
+
+
+.card
+{
+  margin: 150px auto;
+  border: 1px solid black;
+  width: 400px;
+  height: 370px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+input
+{
+ 
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  border: 1px solid navy;
+  padding: 5px;
+}
+h1
+{
+ 
+  padding: 10px;
+}
+.h1
+{
+  text-align: center;
+}
+.buksu
+{
+  color: white;
+}
+
+.log:hover
+{
+  background-color: navy;
+  color: white;
+}
+.card1
+{
+
+  display: flex;
+
+
+}
+.card2
+{
+  width: 17%;
+
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  background-color: #000C6C;
+}
+
+.card3
+{
+  border: 1px solid black;
+  width: 82%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 85px auto;
+  
+}
+
+ul
+{
+  color: white;
+  margin: 75px auto;
+ 
+
+}
+li
+{
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+  margin: 50px;
+}
+li:hover
+{
+  color: #FFB703;
+}
+.app
+{
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+.type
+{
+  width: 500px;
+  height: 450px;
+  border: 1px solid black;
+  
+}
+.purpose
+{
+  width: 500px;
+  height: 450px;
+  border: 1px solid black;
+}
+.btn
+{
+  margin-top: -10px;
+  width: 200px;
+  background-color: #FFB703;
+  color: white;
+  border: none;
+  float: right;
+  margin-right: 65px;
+}
+
+h2
+{
+  padding: 15px;
+
+}
+.input1
+{
+  display: flex;
+  align-items: center;
+
+}
+.check
+{
+  width: 13px;
+  height: 13px;
+  margin: 15px;
+}
+h4
+{
+font-weight: 100;
+}
+.date
+{
+  box-sizing: border-box;
+  width: 90%;
+  text-align: center;
+
+}
+
+.btns
+{
+  display: flex;
+  padding: 20px;
+  
+}
+
+table
+{
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+  border-radius: 20px;
+}
+th, tr, td  
+{
+  width: 15%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.act
+{
+  display: flex;
+  justify-content: center;
+
+}
+.edit, .del
+{
+  width: 40%;
+  padding: 5px;
+  margin: 5px;
+ 
+}
+.edit
+{
+  background-color: rgb(0, 255, 0);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.del
+{
+  background-color:red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.log
+{
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  border: 1px solid navy;
+  padding: 5px;
+  margin-top: 70px;
+
+}
+.btns button
+{
+  width: 40%;
+  padding: 10px;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btns button:hover
+{
+  background-color: #000C6C;
+  color: white;
+}
+.btn
+{
+  padding: 10px;
+}
+.btn:hover
+{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+
+
